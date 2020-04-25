@@ -6,7 +6,6 @@ function myFunction() {
 
     var elmnt = document.getElementById("myDiv");
     if((abc+elmnt.scrollTop) > scrollHt){
-        alert("max Scroll Position!")
         const div = document.createElement('div');
         div.className = 'child2-div';
 
